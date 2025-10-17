@@ -46,13 +46,13 @@
             outline: none;
             border:1px solid white;
             height: 50px;
-            width: 120px;
+            width: 100px;
             font-weight: bolder;
-            padding: 5px;
+          
             color: white;
             cursor: pointer;
             border-radius: 5px;
-            margin-left: 10px;
+            margin-left: 5px;
 
         }
         button:hover{
