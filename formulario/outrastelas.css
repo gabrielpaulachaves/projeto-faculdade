@@ -1,37 +1,31 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 899px){
- .links-form {
-    position: relative;
-    display: inline-block;
-    margin-right: 15px;
-    padding: 10px 0;
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-weight: bold;
-}
-
-      .links-form::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 15px;
-    left: 0;
-    background-color: white;
-    transition: width 0.3s ease;
-}
-.links-form:hover::after {
-    width: 100%;
-}
-
-        .links-form:hover{
-            list-style: none;
-        } 
-        .links-form{
-            margin-right: 0px;
+@media screen and (min-width: 1440px){
+        .links-form {
+        position: relative;
+           display: inline-block;
+         margin-right: 15px;
+         padding: 10px 0;
+          text-decoration: none;
+          list-style: none;
+             color: white;
+          font-weight: bold;
+             margin-right: 0px;
             text-align: center;
+        }
+
+       .links-form::after {
+          content: "";
+          position: absolute;
+           width: 0;
+          height: 2px;
+          bottom: 15px;
+          left: 0;
+            background-color: white;
+          transition: width 0.3s ease;
+        }
+        .links-form:hover::after {
+            width: 100%;
         }
         header{
             justify-content: space-evenly;
@@ -41,6 +35,31 @@
             display: flex;
             justify-content: space-around;
         }
-        
-
+         button{
+            background: transparent;
+            outline: none;
+            border:1px solid white;
+            height: 50px;
+            width: 150px;
+            padding: 5px;
+            font-weight: bolder;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+      #formulario {
+            opacity: 0;             
+            visibility: hidden;     
+             transform: scale(0.9);  
+             background-color: white;
+             margin-top: 20px;
+             padding: 15px;
+             border-radius: 15px;
+              box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+              width: 100%;
+              max-width: 540px;
+                  height: 500px;  
+              transition: opacity 0.3s ease, transform 0.3s ease; 
+}
 }
