@@ -75,7 +75,7 @@
               box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
               width: 100%;
               max-width: 440px;
-                  height: 440px;  
+                  height: 430px;  
               transition: opacity 0.3s ease, transform 0.3s ease; 
 }
 
