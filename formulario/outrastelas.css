@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 899px){
+ .links-form {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+      .links-form::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 15px;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+.links-form:hover::after {
+    width: 100%;
+}
+
+        .links-form:hover{
+            list-style: none;
+        } 
+        .links-form{
+            margin-right: 0px;
+            text-align: center;
+        }
+        header{
+            justify-content: space-evenly;
+        }
+        nav{
+            width: 600px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+
+}
