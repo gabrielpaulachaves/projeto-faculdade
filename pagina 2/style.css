@@ -11,6 +11,7 @@
 body {
     background: url(2151457363.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100dvh;
     overflow-x: hidden;
 }
@@ -68,6 +69,21 @@ a:hover {
     margin: 8px;
     transition: 0.3s;
 }
+main{
+    width: 1500px;
+    height: 1700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+    padding: 10px;
+    background-color: white;
+}
+main > h1{
+    text-align: center;
+    margin: 50px;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 900px) {
@@ -75,7 +91,9 @@ a:hover {
     header {
         height: 8vh;
     }
-
+    main{
+        width: 450px;
+    }
     body {
         background: rgb(54, 29, 87);
     }
