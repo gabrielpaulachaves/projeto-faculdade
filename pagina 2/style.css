@@ -70,7 +70,9 @@ a:hover {
     transition: 0.3s;
 }
 main{
-    width: 1500px;
+    width: 90%;
+    max-width: 1200px;
+    min-width: 300px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -91,7 +93,8 @@ main > h1{
         height: 8vh;
     }
     main{
-        width: 300px;
+        width: 80%;
+      
     }
     body {
         background: rgb(54, 29, 87);
