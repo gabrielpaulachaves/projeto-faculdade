@@ -10,8 +10,9 @@
 }
 
 body {
-    background: url(arabe.jpg) no-repeat center center;
+    background: url(2151457363.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -66,14 +67,15 @@ a:hover {
     transition: 0.3s;
 }
 
-
 @media screen and (max-width: 900px) {
     header {
         height: 8vh;
     }
 
     body {
+        background-color: rgb(65, 46, 83);
         overflow-x: hidden;
+         background: url();
     }
 
  
