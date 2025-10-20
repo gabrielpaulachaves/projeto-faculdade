@@ -20,6 +20,7 @@ class MobileNavBar {
         this.navitens.classList.toggle(this.activeClass);
         this.menuicon.classList.toggle(this.activeClass);
         this.animatelinks();
+        document.body.classList.toggle("no-scroll"); // bloqueia scroll
     }
 
     addClickEvent() {
