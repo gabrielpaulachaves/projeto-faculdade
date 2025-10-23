@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
  
-/* HEADER */
+
 header {
     background-color: rgb(22, 0, 22);
     display: flex;
@@ -33,7 +33,7 @@ header {
     width: 60px;
 }
  
-/* NAV MENU */
+
 #nav-itens {
     display: flex;
     justify-content: space-around;
@@ -69,52 +69,23 @@ a:hover {
     margin: 8px;
     transition: 0.3s;
 }
-main{
-    width: 90%;
-    max-width: 1200px;
-    min-width: 300px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
-    padding: 10px;
-    background-color: white;
-}
-main > h1{
-    text-align: center;
-    margin: 50px;
-}
-h2{
-    margin-left: 30%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-div.perfume{
-    display: flex;
-    align-items: center;
-}
-h3{
-    text-align: center;
-    margin-bottom: 10px;
-}
-.text-explicacao{
-    margin: 10px;
-    padding: 10px;
-}
-#clubdenuit{
-    width: 400px;
-    height: 400px;
-}
-span{
-    font-weight: 700;
-    margin: 20px;
-    color: rgb(1, 216, 54);
-    cursor: pointer;
-}
-span:hover{
-    color: rgb(59, 155, 83);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
  
