@@ -193,7 +193,7 @@ span:hover{
     }
  
    
-    #menu-icon.active .line1 {
+  #menu-icon.active .line1 {
         transform: rotate(-45deg) translate(-8px, 8px);
     }
  
