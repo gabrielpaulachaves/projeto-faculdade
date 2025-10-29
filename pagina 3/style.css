@@ -9,7 +9,7 @@
 }
  
 body {
-    background: url(2151457363.jpg) no-repeat center center;
+    background: url(nicho.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100dvh;
@@ -70,22 +70,67 @@ a:hover {
     transition: 0.3s;
 }
 
+main{
+    width: 90%;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+    padding: 10px;
+    background-color: white;
+}
+main > h1{
+    text-align: center;
+    margin: 50px;
+}
+h2{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+div.perfume{
+    display: flex;
+    align-items: center;
+}
+.ca{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.ep{
+    display: flex;
+    align-items: center;
+}
+.rm{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text-explicacao{
+    margin: 10px;
+    padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img-perfume{
+   width: 400px;
+    height: 400px; 
+}
+span{
+    font-weight: 700;
+    margin: 20px;
+    color: rgb(1, 216, 54);
+    cursor: pointer;
+}
+span:hover{
+    color: rgb(59, 155, 83);
+}
 
 @media screen and (max-width: 900px) {
  
@@ -144,7 +189,10 @@ a:hover {
     .perfume{
         flex-direction: column-reverse;
     }
- 
+    .ca, .ep, .rm{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
    
     #menu-icon.active .line1 {
         transform: rotate(-45deg) translate(-8px, 8px);

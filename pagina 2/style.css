@@ -102,9 +102,10 @@ h3{
     margin: 10px;
     padding: 10px;
 }
-#clubdenuit{
-    width: 400px;
-    height: 400px;
+
+.img-perfume{
+   width: 400px;
+    height: 400px; 
 }
 span{
     font-weight: 700;
@@ -114,6 +115,11 @@ span{
 }
 span:hover{
     color: rgb(59, 155, 83);
+}
+#lattafaasad{
+   display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 900px) {
@@ -173,7 +179,13 @@ span:hover{
     .perfume{
         flex-direction: column-reverse;
     }
- 
+    #lattafaasad{
+        flex-direction: column-reverse;
+    }
+    .img-perfume{
+        width: 200px;
+        height: 200px;
+    }
    
     #menu-icon.active .line1 {
         transform: rotate(-45deg) translate(-8px, 8px);
