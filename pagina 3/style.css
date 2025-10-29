@@ -131,6 +131,13 @@ span{
 span:hover{
     color: rgb(59, 155, 83);
 }
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
 
 @media screen and (max-width: 900px) {
  
