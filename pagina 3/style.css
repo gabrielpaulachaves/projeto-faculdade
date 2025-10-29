@@ -144,6 +144,10 @@ span:hover{
         background: rgb(54, 29, 87);
     }
  
+    .img-perfume{
+        width: 200px;
+        height: 200px;
+    }
 
     #nav-itens {
         position: fixed;
