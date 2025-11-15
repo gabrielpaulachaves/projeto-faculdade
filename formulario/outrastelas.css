@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1440px){
+@media screen and (max-width: 900px){
         .links-form {
         position: relative;
            display: inline-block;
@@ -13,6 +13,9 @@
              margin-right: 0px;
             text-align: center;
         }
+        body{
+          background: rgb(39, 39, 184)
+        };
 
        .links-form::after {
           content: "";
@@ -47,6 +50,15 @@
             cursor: pointer;
             border-radius: 5px;
             margin-left: 5px;
+        }
+        button:hover{
+          transition: 0s;
+        }
+        .rp{
+          color: white;
+        }
+        .rp:hover{
+          transition: 0s;
         }
       #formulario {
             opacity: 0;             

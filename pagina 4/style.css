@@ -69,7 +69,6 @@ a:hover {
     margin: 8px;
     transition: 0.3s;
 }
-
 main{
     width: 90%;
     max-width: 1200px;
@@ -77,56 +76,130 @@ main{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
-    padding: 10px;
-    background-color: white;
 }
 main > h1{
     text-align: center;
     margin: 50px;
 }
 h2{
-    margin-left: 30%;
+    text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-div.perfume{
-    display: flex;
-    align-items: center;
+.origem{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-indent: 20px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.700);
 }
-#jp{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+.pi{
+    color: white;
 }
-
+.apr{
+    margin: 30px;
+    color: white;
+}
+#pai{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.vip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.vip:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.493);
+}
+.jp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.jp:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.493);
+}
+#pai2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.savage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.savage:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.493);
+}
+.million{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.million:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.493);
+}
 h3{
     text-align: center;
     margin-bottom: 10px;
 }
 .text-explicacao{
     margin: 10px;
-    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 .img-perfume{
-   width: 400px;
-    height: 400px; 
+   width: 200px;
+    height: 200px; 
 }
 span{
+    display: block;
+    text-align: center;
+    text-indent: 0px;
+    width: 20%;
     font-weight: 700;
-    margin: 20px;
-    color: rgb(1, 216, 54);
+    margin: auto;
+    color: rgb(0, 141, 0);
     cursor: pointer;
+    background-color: rgb(190, 190, 190);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 0, 40);
 }
 span:hover{
-    color: rgb(59, 155, 83);
-}
-
-#pai{
-    flex-direction: column;
-    justify-content: space-around;
+    color: rgb(0, 32, 8);
 }
 footer {
     background-color: #111;
@@ -143,21 +216,45 @@ footer {
     }
     main{
         width: 80%;
+        margin: auto;
     }
     body {
-        background: rgb(54, 29, 87);
+        background: rgb(175, 123, 11);
     }
-
+    h1{
+        color: white;
+    }
+    .apr{
+        color: white;
+    }
     .img-perfume{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    .text-explicacao{
+        font-size: 14px;
+    }
+    span{
+        width: 40%;
     }
  
-    #jp{
-        flex-direction: column-reverse;
+    #pai,#pai2{
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-around;
         align-items: center;
+        width: 100%;
+        margin-top: 30px;
     }
-
+    .vip,.jp,.savage,.million{
+        width: 100%;
+        margin-bottom: 10px;
+        transition: transform 0, box-shadow 0;
+    }
+    .vip:hover,.jp:hover,.savage:hover,.million:hover{
+        transform: translateY(0px);
+        box-shadow: 0px 0px 0px
+    }
     #nav-itens {
         position: fixed;
         top: 0;

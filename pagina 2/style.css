@@ -16,7 +16,6 @@ body {
     overflow-x: hidden;
 }
  
-/* HEADER */
 header {
     background-color: rgb(22, 0, 22);
     display: flex;
@@ -70,7 +69,10 @@ a:hover {
     transition: 0.3s;
 }
 main{
-    width: 90%;
+   
+}
+section{
+     width: 80%;
     max-width: 1200px;
     min-width: 300px;
     margin: auto;
@@ -80,15 +82,30 @@ main{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
     padding: 10px;
     background-color: white;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-main > h1{
+section:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+h1{
     text-align: center;
     margin: 50px;
 }
 h2{
-    margin-left: 30%;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
     margin-top: 10px;
+}
+.h2-perf{
+    color: white;
+}
+p{
+    text-align: center;
+    text-indent: 2em;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
 }
 div.perfume{
     display: flex;
@@ -101,20 +118,28 @@ h3{
 .text-explicacao{
     margin: 10px;
     padding: 10px;
+    position: relative;
 }
 
 .img-perfume{
-   width: 400px;
-    height: 400px; 
+   width: 300px;
+    height: 300px; 
 }
 span{
+    display: block;
+    text-align: center;
+    width: 15%;
     font-weight: 700;
-    margin: 20px;
-    color: rgb(1, 216, 54);
+    margin: auto;
+    color: rgb(0, 141, 0);
     cursor: pointer;
+    background-color: rgb(190, 190, 190);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 0, 40);
 }
 span:hover{
-    color: rgb(59, 155, 83);
+    color: rgb(0, 32, 8);
 }
 #lattafaasad{
    display: flex;
@@ -136,9 +161,10 @@ footer {
     }
     main{
         width: 80%;
+        margin: auto;
     }
     body {
-        background: rgb(54, 29, 87);
+        background: rgb(139, 55, 156);
     }
  
 
@@ -185,6 +211,12 @@ footer {
     }
     .perfume{
         flex-direction: column-reverse;
+    }
+    #pai{
+        align-items: center;
+    }
+    span{
+        width: 40%;
     }
     #lattafaasad{
         flex-direction: column-reverse;
